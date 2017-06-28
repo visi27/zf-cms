@@ -1,0 +1,530 @@
+body { 
+	font-family:Tahoma, Geneva, sans-serif; 	
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-size:12px;
+}
+
+#siteHeadInfo{
+	margin:10px 0px 10px 10px; /*top right bottom left*/
+	padding:2px 0 0 22px;
+	width:250px;
+	font-size:110%;
+	font-weight:bold;
+	background: transparent url(../images/splay_24.png) no-repeat left top;
+	height:25px;
+}
+
+.submit_form {
+	
+	display:block;
+    margin:0 0 0 0;
+    background-color:#f5f5f5;
+    border:2px solid #dedede;
+    border-top:2px solid #eee;
+    border-left:2px solid #eee;
+    background:#f5f5f5 url('../images/view.png') no-repeat left center;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px;
+    line-height:130%;
+    text-decoration:none;
+    
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 5px 6px 18px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+.save_form {
+	
+	display:block;
+    margin:0 0 0 0;
+    background-color:#f5f5f5;
+    border:2px solid #dedede;
+    border-top:2px solid #eee;
+    border-left:2px solid #eee;
+    background:#f5f5f5 url('../images/save.png') no-repeat left center;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px;
+    line-height:130%;
+    text-decoration:none;
+    
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 5px 6px 18px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+/****** Header *******/
+div#headWrapper{height:48px; }
+
+div#fastSearchWrapper{margin:1.8% 0 0 73%; width:265px; position:relative; }
+
+div#logOut{ float:right; }
+
+div#fastSearch{ position:absolute; top:1px; right:5px; }
+
+div.scrollgrid {
+height: 460px;
+width: 1150px;
+overflow: auto;
+border: 1px solid #666;
+padding: 8px;
+}
+
+input#fastSearchInput{
+	font-family:Tahoma, Geneva, sans-serif; 	
+	width: 200px;
+	height:20px;
+	font-size:12px;
+	margin: 2 2 2 2;
+	padding: 0 0 0 18px;
+	border: 1px solid #d6d7d8;
+	background:#fff url('../images/find_text.png') no-repeat left center;
+}
+
+a.link:link {color:#3d403f; text-decoration:none;}      /* unvisited link */
+a.link:visited {color:#3d403f; text-decoration:none;}  /* visited link */
+a.link:hover {color:#3d403f; text-decoration:none;}  /* mouse over link */
+a.link:active {color:#3d403f; text-decoration:none;}  /* selected link */
+
+div.text{
+	font-family:Tahoma, Geneva, sans-serif; 
+	font-size:12px;
+	color:#3d403f;
+}
+
+div.setBorder{
+	border-style:solid; 
+	border-width:1px;
+}
+
+/****** End Header *******/
+
+/* Login */
+
+.highlighted
+{
+	background-color:#F3F7FB;
+	overflow:hidden;
+}
+
+.logInResponse { 
+	margin: 3px 0pt; 
+	background-color: rgb(255, 223, 223) ! important; 
+	color: rgb(223, 0, 0) ! important;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+
+#popupcontentwrapper{
+	float: left;
+	width: 600px;
+}
+
+#popupcontentcolumn{
+	margin: 0 180px 0 0px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+
+#maincontainer{
+	width: 95%; /*Width of main container*/
+	margin: 0 auto; /*Center container on page*/
+	border-left: 1px solid rgb(195, 195, 195);
+	border-right: 1px solid rgb(195, 195, 195);
+}
+
+#topsection{
+background: url(../images/head_bckg.png) repeat top right;
+height: 80px; /*Height of top section*/
+padding-bottom:10px;
+}
+
+#topsection p{
+margin-left: 30px;
+padding-top: 10px;
+}
+
+#leftcolumn{
+float: left;
+width:20%;
+border-top: 1px solid #666;
+border-right: 1px solid #666;
+border-bottom: 1px solid #666;
+padding: 5px 5px 0 0;
+margin: 0px 5px 0 0;
+background-color: #f9f9f9;
+}
+
+#rightcolumn{
+float: left;
+border-top: 1px solid #666;
+border-left: 1px solid #666;
+border-bottom: 1px solid #666;
+padding: 5px;
+width:75%;
+overflow:auto;
+}
+#footer{
+clear: left;
+width: 100%;
+height: 54px;
+background: url(../images/foot_bckg.png) repeat top right;
+color: black;
+text-align: center;
+padding-top: 12px;
+}
+
+#footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+
+.shiftcontainer{
+position: relative;
+left: 5px; /*Number should match -left shadow depth below*/
+top: 5px; /*Number should match -top shadow depth below*/
+}
+
+.shadowcontainer{
+width: 100%; /* container width*/
+background-color: #d1cfd0;
+}
+
+.shadowcontainer .innerdiv{
+/* Add container height here if desired */
+background-color: white;
+border: 1px solid gray;
+padding: 6px;
+position: relative;
+left: -5px; /*shadow depth*/
+top: -5px; /*shadow depth*/
+}
+
+div#centerSection{
+	width: 100%;
+	margin:30px 5px 20px 10px;
+}
+
+
+#navbuttonContainer{
+	width: 170px;
+	height: 50px;
+	clear: left;
+	padding: 5px 0 5px 43%;
+	
+}
+
+.center{text-align: center;}
+
+
+.text {
+font-family:Tahoma, Geneva, sans-serif;
+font-weight:normal;
+font-size:11px;
+color:#000000;
+}
+
+/* jQuery */
+.ui-autocomplete-loading {
+	background: white url('../images/ui-anim_basic_16x16.gif') right center
+		no-repeat;
+}
+h1 { font-size: 1.2em; margin: .6em 0; }
+div#data-contain { width: 500px; height:100%; padding:0 0 0 10px; margin: 0px 0 0 10px; float:right; border-left: 1px solid #000000; font-size:11px;}
+div#data-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#data-contain table td, div#data-contain table th { border: 1px solid #eee; padding: .6em 5px; text-align: left; }
+/*
+#data-table tr.hovered {  
+  background-color: lightblue;  
+  color: black;  
+}
+#data-table tr.selected {  
+  background-color: lightblue;  
+  color: black;  
+}
+*/
+.toolbar-menu input{
+	height:18px;
+	width:160px;
+	border-right:none;
+	text-align:left;
+	font-weight:normal;
+	margin-left:5px;
+}
+
+ .toolbar-menu button {
+	border-left:none;
+	height:31px;
+}
+
+.ie7 .toolbar-menu button{
+	border-left:none;
+	height:30px;
+}
+
+
+.gridPannel{
+	padding-top:10px;
+	/*border: 1px solid red;*/
+}
+
+button{
+	font-weight:normal;
+}
+
+form fieldset#fieldset-left
+{
+    float: left;
+    width: auto;
+	border: none;
+}
+
+
+form fieldset#fieldset-center
+{
+    float: left;
+    width: 20%;
+	border: none;
+    }
+
+
+form fieldset#fieldset-right
+{
+    float: left;
+    width: 25;
+     border: none;
+}
+
+ 
+form #fieldset-bottom
+{
+    clear: both;
+    border: none;
+}
+
+form fieldset#fieldset-middle
+{
+    margin-top: 40px !important;
+}
+
+.tooltip {
+	background-color:#333;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:300px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:11px;
+
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+
+.rot-neg-90 {
+  /* rotate -90 deg, not sure if a negative number is supported so I used 270 */
+  -moz-transform: rotate(270deg);
+  -moz-transform-origin: 50% 50%;
+  -webkit-transform: rotate(270deg);
+  -webkit-transform-origin: 50% 50%;
+  /* IE support too convoluted for the time I've got on my hands... */
+}
+
+.noWrap{
+	white-space:nowrap;
+}
+
+/* reports style section */
+
+.headertext {text-align:center !important}
+
+.innerTable {
+	empty-cells: show; 
+	border-collapse:collapse;
+}
+.innerTable th{
+	color:#000000; 
+	text-align:left; 
+	padding:2px 2px; 
+	border-bottom:solid 1px #d2d1cb;
+}
+.innerTable td{ 
+  border-bottom:solid 0px #e0e0e0 !important;
+  border-left:solid 0px #e0e0e0 !important;
+  border-right:solid 0px #e0e0e0 !important; 
+  padding:5px 5px; 
+  width: 100%; 
+  valign:top; 
+  align:left;
+}
+
+.innerTable tr{}
+
+.table tr:visited td{ 
+  background:#f009e1;
+}
+
+
+.outtertable {
+	border:1px solid #e0e0e0; 
+	cellpadding:10px;
+}
+
+.outertable td{ 
+	border:solid 1px #e0e0e0; 
+	padding:3px 3px;
+	width: auto; 
+	vertical-align:top; 
+	align:left; 
+	font-size:11px;
+}
+
+.orderHeader{
+  border-bottom: solid 1px #e0e0e0;
+  margin-bottom:0px;
+  text-align:center;
+}
+
+#mainContainer {
+  width: 60%;
+  border: solid 1px #e0e0e0;
+  padding:50px;
+
+}
+
+.required:before{content:'* '}
+
+.required{
+	width:250px;
+    white-space:normal;
+}
+
+#orderFooter{
+  font-size:9px;
+  float:left;
+  line-height:13px;
+}
+.ui-autocomplete { 
+  max-height: 200px;
+  overflow-y: auto;
+ /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+ /* add padding to account for vertical scrollbar */
+ /* padding-right: 20px;}*/
+}
+
+.htmlViewHeader {
+    
+    clear: both;
+    margin: 5px 0px 1px 0px;
+    padding: 6px 0px 6px 10px;
+
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration:underline;
+	font-size:12px;
+	color: #FBFBFB;
+	background-color: #888888;
+
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.sortIcons {
+	float:right;
+	display:block;
+}
+
+.filterWrap{
+	background-color: #CEE2EF;
+ 	padding: 15px 0px 15px 5px;
+	-moz-border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	box-shadow: #C1C1C1 2px 2px;
+	opacity:0.85;
+  	filter:alpha(opacity=85); /* For IE8 and earlier */
+}
+
+.textGrey{
+	color:#202020;}
+
+#data-table{
+	width: 100%;
+	border: 1px solid #CEE2EF;
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 0;}
+
+#data-table th {
+	font-weight: bold;
+	background-color: #CEE2EF;
+	border-bottom: 1px solid #cef; }
+
+#data-table td,th {
+	padding: 5px 5px;
+}
+
+.odd td {
+	background-color: #F8F8F8   ;
+}
+
+.my-hoveredTd{
+	border-top: 1px solid #0066CC ;
+	border-bottom: 1px solid #0066CC ;
+}
+
+.dataContent{
+	cursor:pointer;
+}
+
+.tdContent{
+	cursor:pointer;
+}
+
+#reportContent{
+	height:600px;
+	width:99%;
+}
+
+#iframeContent{
+	border:1px solid #1C94C4;
+	border-top: none;
+	padding:5px;
+	width:100%;
+	height:100%;
+}
+
+
+#reportTypeContainer {
+    border: 1px solid #1C94C4;
+    height: 40px;
+    padding: 5px;
+    width: 99%;
+}
+
+.actions-extended{
+	float: right;
+}
+
+.yellow{
+	background:#feff8c !important;
+}
+
+.errors li{
+	width: 230px;	
+}

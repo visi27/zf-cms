@@ -1,0 +1,42 @@
+
+
+/* Bootstrap Modal Header COLOR Override */
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #0480be;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+ 
+ .modal-header h4{
+ 	color:#ffffff !important;
+ }
+ 
+ .modal-header .close{
+ 	color:#ffffff !important;
+ }
+ 
+ .filter-panel{
+ 	background-color:#cee2ef !important;
+ 	border: 1px solid;
+ 	border-color: #b4d2e5;
+ 	margin-bottom:0px;
+ 	padding:6px;
+ 	padding-bottom:0px;
+ 	margin-top:5px;
+ 	z-index: 0;
+ }
+
+.ui-autocomplete-input{
+ 	 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAPZSURBVDhPNVRJb1NnFPVfCSFxwCYlgcQNuFQNwwapC9iAKFW76Aq1myIkoFIXHdR213ULtt/zHKQwSCVCKolaJaRJrDgJBDnx82wnTmkhZYj9psO5n9OnnPjpfveed4fzXU8bFmzwcfmnXiyitQsTcBzA5oFLu9WCY8k7j2wXrmnBdRivzgGPCwem5cCir0vDq1Zb0bwg/iE2iL938S+xTbwmHCFkrNvJgOQk67CoDykScRSCRA24Ovscn9yv4bS+hIt3DFyb2cItHpZ2/UznDUOZvRArMpvsfBGiZ0SOB99OGjgZziAQL8CnF+FLVOGPljCSNDAamsf1qSJy9JUs28KjynRIxn8mCf6jcZW4EJvDB9oTDITyJKqQqA4v0/SmNtCtl/BOvISjkWWci84iQ39px47qo0Uy1v2GhirxzZ95HLmZVSQHUk340xvoS9bRnaxiL9+7U5voob0/VUcgtIzr01soM07ihccjKQr7ODs8evMRBnUD3mgN+xJleJNF9IyV0DtWRRfL3Z9u0tbEHq2MgXQVwV8e4beGo8qVtnGawBbx1fwzHGZ5/fEqUUFAX2Y5fyGozSEYmsVxLYuRG0s4HCvCqxXgT9Ywoi3jp5mKipfeeWzWKtP7aMKAL5qDn81+N/wUD9iGAu0cKuqE+KwRt4n3o2sYDK/jaGgJX4xnlM8rwiM6EcdT+gL6YgYG2I9g+DF+zmyjQbtMuW3a6rdC/LBiIvBrFoeiBbynP8aF8CSKtMsAKY22EuSnE3X0swSflsewvo5jNzJIMn8hlK82ibGqzUkvYnCsovo5FFvB53cX1fCeE5SGhU027uu5bQxHnuIgGy89O8i+nNKWME1NGnR8yNQ+DE9jMJ7DnkQJPekKBqjF72eKqjJVpoxUppmsuTgRYal6HntTW9ifaGJIM/Dx+BpukfDMvRKGEuvoJVFXvMzzMo5HF3F/w1LXTuThsXidpF5J9eoUS2TqfekGuiIVZkg9hXM4lszDH1tTRD3pOodUQTDyBJd/L6nyZZIt7gPezY5GdohVTvBs9A9eoxX0JwoUbh0HYmX44kX0JfL8SAG91GGQU/8sNo8CAyUOrtAJGRnVfeIakLpXiC8ni7yDc8wqq7Q3HF9lxlkEtAWM6llcediAwThFwQHCbalV5OE97zzkaxOiZil5ouHix+kyLt1exHl9CpfuLeC7mTwVb2OT522JU5CtYapV5OHOoIWP/DA7ubM7u6SibBGkTFM0JlOTnaYykmVpy/LsECkyRU9m9QW1m+hEm3BLkEzpJfGCBtlhIl6Tm0Y2smPv0O9/MhtvAUn70NCxSpxmAAAAAElFTkSuQmCC") no-repeat scroll 98% 52% #fff;
+ }
+ 
+ .filter-panel .ui-autocomplete-input{
+ 	 background: #fff;
+ }
+ 

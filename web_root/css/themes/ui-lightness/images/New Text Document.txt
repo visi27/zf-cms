@@ -1,0 +1,2 @@
+ui-icons_ef8c08_256x240 - orange
+ui-icons_222222_256x240 - black
