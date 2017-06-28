@@ -1,0 +1,221 @@
+<?php
+
+class Table_BlogCategories extends Table_Abstract implements Interface_iForm
+{
+
+    protected $_name = 'blog_categories';
+
+    protected $_primary = 'id';
+
+    protected $_rowClass = 'Table_MyRowClass';
+
+    protected $_smartSearch = array(
+        'Display' => array(
+            "title"
+        ),
+        'Search' => array(
+            "title"
+        ),
+        'Method' => 'selectRowsForSearch'
+    );
+
+    public function selectData($filters = array(), $sortField = null, $limit = null)
+    {
+        $select = $this->select();
+        
+        // add any filters which are set
+        if (count($filters) > 0) {
+            foreach ($filters as $field => $filter) {
+                if (count($filter) > 0) {
+                    foreach ($filter as $operator => $value)
+                        $select->where($field . $operator . '?', $value);
+                }
+            }
+        }
+        // add the sort field if it is set
+        if (null != $sortField) {
+            $select->order($sortField);
+        }
+        // add the limit field if it is set
+        if (null != $limit) {
+            $select->limit($limit);
+        }
+        return $this->fetchAll($select);
+        // return $select->__toString();
+    }
+
+    public function selectRowsForSearch($filters = array(), $sortField = null, $sortDir = null)
+    {
+        $select = $this->select();
+        
+        $select->setIntegrityCheck(false)->from($this, array(
+            "$this->_name.id",
+            "$this->_name.title"
+        ));
+        
+        // add any filters which are set
+        if (count($filters) > 0) {
+            foreach ($filters as $field => $filter) {
+                if (count($filter) > 0) {
+                    foreach ($filter as $operator => $value)
+                        $select->where($field . $operator . '?', $value);
+                }
+            }
+        }
+        
+        // add the sort field if it is set
+        if (null != $sortField) {
+            // marilda: add sort direction if it is set
+            if (null != $sortDir) {
+                $sortField = $sortField . " " . $sortDir;
+            }
+            
+            $select->order($sortField);
+        } else {
+            $select->order("$this->_name.title");
+        }
+        
+        $test = $select->__toString();
+        
+        return $this->fetchAll($select);
+    }
+
+    public function createNew(Zend_Form $formObj)
+    {
+        
+        // create a new row in the table
+        $row = $this->createRow();
+        
+        $row->title = $formObj->getElement('title')->getValue();
+        
+        $row->rewrite_title = Utility_Functions::generateRewriteTitle($row->title);
+        
+        $row->description = $formObj->getElement('description')->getValue();
+        
+        $section = explode("-", $formObj->getElement('section')->getValue());
+        $row->section = trim($section[0]);
+        
+        try {
+            // save
+            $row->save();
+            
+            // if no exception, return true
+            return true;
+        } catch (Exception $e) {
+            return $e->getMessage();
+        }
+    }
+
+    public function updateRow(Zend_Form $formObj)
+    {
+        
+        // find the row that matches the id
+        $row = $this->getDataById($formObj->getElement('row_id')
+            ->getValue());
+        if ($row) {
+            // set the row data
+            $row->title = $formObj->getElement('title')->getValue();
+            
+            $row->rewrite_title = Utility_Functions::generateRewriteTitle($row->title);
+            
+            $row->description = $formObj->getElement('description')->getValue();
+            
+            $section = explode("-", $formObj->getElement('section')->getValue());
+            $row->section = trim($section[0]);
+            
+            try {
+                // update the row
+                $row->save();
+                
+                // if no exception, return true
+                return true;
+            } catch (Exception $e) {
+                
+                return $e->getMessage();
+            }
+        } else {
+            throw new Zend_Exception("Update function failed; could not find row!");
+        }
+    }
+
+    public function deleteRow($id)
+    {
+        try {
+            // find the row that matches the id
+            $row = $this->getDataById($id);
+            
+            // delete the row
+            $row->delete();
+            
+            // if no exception, return true
+            return true;
+        } catch (Exception $e) {
+            
+            return $e->getMessage();
+        }
+    }
+    
+    // GRID SECTION METHODS
+    // Information to be displayed in the grid
+    // Return Type: rowSet
+    // $id['id'] contains selected role id
+    public function selectRowsForGrid($id = array(), $sortField = null, $sortDir = null)
+    {
+        $select = $this->select();
+        
+        $select->setIntegrityCheck(false)
+            ->from($this, array(
+            "$this->_name.id",
+            "$this->_name.title",
+            "$this->_name.description",
+            "blog_sections.title as section"
+        ))
+            ->join("blog_sections", "$this->_name.section = blog_sections.id", "");
+        
+        // add the sort field if it is set
+        if (null != $sortField) {
+            // sort field and direction from grid
+            foreach ($sortField as $sort) {
+                if (null != $sortDir) {
+                    $sort = $sort . " " . $sortDir;
+                }
+                
+                $select->order($sort);
+            }
+        } else {
+            $select->order("$this->_name.title");
+        }
+        
+        $test = $select->__toString();
+        return $this->fetchAll($select);
+    }
+    
+    // Provides data to the zend form Awards
+    // Must return the same field names as the zend form in
+    // Return Type: Json
+    public function selectRowForGrid(array $args)
+    {
+        
+        // get the parameters
+        $rowId = Utility_Functions::argsToArray($args);
+        
+        $select = $this->select();
+        $select->setIntegrityCheck(false)
+            ->from($this, array(
+            "$this->_name.id",
+            "$this->_name.title",
+            "$this->_name.description",
+            "CONCAT(blog_sections.id, ' - ', blog_sections.title) as section"
+        ))
+            ->join("blog_sections", "$this->_name.section = blog_sections.id", "")
+            ->where("$this->_name.id = ?", $rowId['itemFound']);
+        
+        $item = $this->fetchRow($select);
+        // echo $select->__toString ();
+        
+        // return the result in json format
+        echo Utility_Functions::_toJson(! empty($item) ? $item->toArray() : "");
+    }
+}
+?>
+
