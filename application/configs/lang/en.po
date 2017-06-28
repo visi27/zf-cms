@@ -1,0 +1,1922 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HRM.en\n"
+"POT-Creation-Date: 2014-04-04 09:41+0100\n"
+"PO-Revision-Date: 2014-04-04 09:42+0100\n"
+"Last-Translator: Evis Bregu <evis.bregu@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: D:\\Projects\\HRM\\trunk\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: application\n"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:29
+msgid "id"
+msgstr "id"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:29
+msgid "Kodi i pozicionit"
+msgstr "Position Code:"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:29
+msgid "Emri i pozicionit"
+msgstr "Position Name:"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:30
+msgid "Dt. e fillimit"
+msgstr "Start Date"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:30
+msgid "Dt. e perfundimit"
+msgstr "End Date"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:30
+msgid "Dt e urdherit"
+msgstr "Order Date"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:31
+#: application/classes/Ajax/Response/Personel/ModuleArchiveAwards.php:25
+msgid "Nr. i urdherit"
+msgstr "Order Nr:"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:31
+msgid "Konfirmuar"
+msgstr "Confirmed"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:31
+msgid "Status"
+msgstr "Status"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:31
+msgid "Konflikt"
+msgstr "Conflict"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:32
+msgid "collision_desc"
+msgstr "collision_desc"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:32
+msgid "Urdheri"
+msgstr "Order"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:40
+msgid "Krijo"
+msgstr "Create"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:41
+msgid "Konfirmo"
+msgstr "Confirm"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:247
+msgid "Anullo"
+msgstr "Cancel"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:299
+msgid "Krijo Urdher"
+msgstr "Create Order"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:349
+msgid "Shiko Urdher"
+msgstr "View Order"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:389
+msgid "Urdher Shumefishte"
+msgstr "Multiple Order"
+
+#: application/classes/Ajax/Response/Personel/ModuleAccessCard.php:31
+#: application/classes/Ajax/Response/Personel/ModuleAccessCard.php:42
+#: application/classes/Ajax/Response/Personel/ModuleArchiveAwards.php:25
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:41
+#: application/classes/Ajax/Response/Personel/ModuleSearch.php:66
+msgid "ID"
+msgstr ""
+
+#: application/classes/Ajax/Response/Personel/ModuleAccessCard.php:31
+#, fuzzy
+msgid "Nr i Kartes"
+msgstr "Card Number:"
+
+#: application/classes/Ajax/Response/Personel/ModuleAccessCard.php:31
+#, fuzzy
+msgid "Data e Leshimit"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Ajax/Response/Personel/ModuleAccessCard.php:31
+msgid "Data e Skadences"
+msgstr ""
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveAwards.php:25
+#, fuzzy
+msgid "Lloji i titullit"
+msgstr "Appointment Type:"
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveAwards.php:25
+#, fuzzy
+msgid "Emertimi i titullit"
+msgstr "Position Name:"
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveAwards.php:25
+#, fuzzy
+msgid "Data e urdherit"
+msgstr "Order Date"
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+#, fuzzy
+msgid "Lloji i edukimit"
+msgstr "Appointment Type:"
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+#, fuzzy
+msgid "Emri i institucionit"
+msgstr "Position Name:"
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+#, fuzzy
+msgid "Shteti"
+msgstr "Citizenship:"
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+#, fuzzy
+msgid "Qyteti"
+msgstr "Citizenship:"
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+msgid "Nr i diplomes"
+msgstr ""
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+#, fuzzy
+msgid "Data e diplomes"
+msgstr "Contract Start Date (dd/mm/yyyy):"
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+msgid "Profili i studimit"
+msgstr ""
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+#, fuzzy
+msgid "Data e perfundimit"
+msgstr "End Date"
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+msgid "Rezultati akademik"
+msgstr ""
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+msgid "Mesatarja"
+msgstr ""
+
+#: application/classes/Ajax/Response/Personel/ModuleArchiveCivilEducation.php:26
+msgid "Komente"
+msgstr ""
+
+#: application/classes/Ajax/Response/Personel/ModuleSearch.php:66
+msgid "ID card"
+msgstr ""
+
+#: application/classes/Ajax/Response/Personel/ModuleSearch.php:66
+#: application/classes/Ajax/Response/Report/DisplaySecurity.php:78
+msgid "Emri"
+msgstr "Name"
+
+#: application/classes/Ajax/Response/Personel/ModuleSearch.php:67
+msgid "Atesia"
+msgstr "Father Name"
+
+#: application/classes/Ajax/Response/Personel/ModuleSearch.php:67
+#: application/classes/Ajax/Response/Report/DisplaySecurity.php:89
+msgid "Mbiemri"
+msgstr "Surname"
+
+#: application/classes/Ajax/Response/Personel/ModuleSearch.php:67
+#, fuzzy
+msgid "Datelindja"
+msgstr "Birthday (dd/mm/yyyy):"
+
+#: application/classes/Ajax/Response/Personel/ModuleSearch.php:67
+#, fuzzy
+msgid "Gjinia"
+msgstr "Gender"
+
+#: application/classes/Ajax/Response/Personel/ModuleSearch.php:67
+#, fuzzy
+msgid "Gjendja civile"
+msgstr "Civil Status:"
+
+#: application/classes/Ajax/Response/Queries/FuncCourse.php:29
+#: application/classes/Ajax/Response/Queries/Vacant.php:30
+#: application/classes/Ajax/Response/Queries/languageAdHoc.php:29
+#: application/classes/Ajax/Response/Report/DisplaySecurity.php:34
+msgid "Te Gjitha Forcat"
+msgstr "All Forces"
+
+#: application/classes/Ajax/Response/Queries/FuncCourse.php:40
+#: application/classes/Ajax/Response/Queries/Vacant.php:41
+#: application/classes/Ajax/Response/Queries/languageAdHoc.php:40
+#: application/classes/Ajax/Response/Report/DisplaySecurity.php:45
+msgid "Te Gjitha Strukturat"
+msgstr "All Structures"
+
+#: application/classes/Ajax/Response/Queries/FuncCourse.php:51
+#: application/classes/Ajax/Response/Queries/Vacant.php:52
+#: application/classes/Ajax/Response/Queries/languageAdHoc.php:51
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:48
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:141
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:183
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:212
+msgid "Tipi"
+msgstr "Type"
+
+#: application/classes/Ajax/Response/Queries/FuncCourse.php:61
+#: application/classes/Ajax/Response/Queries/Vacant.php:62
+#: application/classes/Ajax/Response/Queries/languageAdHoc.php:61
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:43
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:70
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:144
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:186
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:213
+msgid "Grada"
+msgstr "Rank"
+
+#: application/classes/Ajax/Response/Queries/FuncCourse.php:71
+msgid "Kursi"
+msgstr "Course"
+
+#: application/classes/Ajax/Response/Queries/FuncCourse.php:82
+msgid "Vendndodhja"
+msgstr "Location"
+
+#: application/classes/Ajax/Response/Queries/Vacant.php:72
+#: application/classes/Ajax/Response/Queries/languageAdHoc.php:102
+msgid "Specialiteti"
+msgstr "Specialty"
+
+#: application/classes/Ajax/Response/Queries/languageAdHoc.php:71
+msgid "Gjuha"
+msgstr "Language"
+
+#: application/classes/Ajax/Response/Queries/languageAdHoc.php:82
+msgid "Testi"
+msgstr "Test"
+
+#: application/classes/Ajax/Response/Queries/languageAdHoc.php:92
+msgid "Rezultati"
+msgstr "Test Result"
+
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:41
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:54
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:66
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:196
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:246
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:287
+msgid "Struktura"
+msgstr "Structure"
+
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:46
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:193
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:243
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:286
+msgid "Forca"
+msgstr "Force"
+
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:83
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:109
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:210
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:260
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:289
+#: application/classes/Ajax/Response/Report/DisplaySecurity.php:67
+msgid "Lloji Certifikates"
+msgstr "Level Of Clearance"
+
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:88
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:203
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:253
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:288
+#: application/classes/Ajax/Response/Report/DisplaySecurity.php:56
+msgid "Certifikata"
+msgstr "Certificate Type"
+
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:149
+msgid "Nga"
+msgstr "From"
+
+#: application/classes/Ajax/Response/Report/DisplayExpireCertificate.php:151
+msgid "Te"
+msgstr "To"
+
+#: application/classes/Ajax/Response/Report/Rollup.php:29
+msgid "Statusi"
+msgstr "Status"
+
+#: application/classes/Ajax/Response/Report/manningReport.php:29
+msgid "Zgjidh Njesine"
+msgstr "Select Unit"
+
+#: application/classes/Ajax/Response/Statistics/serviceStat.php:95
+msgid "Data"
+msgstr "Date"
+
+#: application/classes/Ajax/Response/Statistics/statTwo.php:30
+msgid "Vendi"
+msgstr "Location"
+
+#: application/classes/Form/AccessCard.php:63
+#: application/classes/Form/DutyAppointments.php:26
+msgid "Informacion per personin:"
+msgstr "Person Information:"
+
+#: application/classes/Form/AccessCard.php:72
+msgid "Numri Kartes:"
+msgstr "Card Number:"
+
+#: application/classes/Form/AccessCard.php:90
+msgid "Data e Leshimit (dd/mm/yyyy):"
+msgstr ""
+
+#: application/classes/Form/AccessCard.php:103
+msgid "Data e Skadences (dd/mm/yyyy):"
+msgstr ""
+
+#: application/classes/Form/AccessCard.php:120
+#: application/classes/Form/Acd.php:91 application/classes/Form/AcdRole.php:62
+#: application/classes/Form/Acl.php:77 application/classes/Form/Acr.php:81
+#: application/classes/Form/Assignment.php:134
+#: application/classes/Form/Awards.php:77
+#: application/classes/Form/BroadCast.php:101
+#: application/classes/Form/Candidate.php:710
+#: application/classes/Form/Children.php:100
+#: application/classes/Form/CivilEducation.php:133
+#: application/classes/Form/Clearance.php:79
+#: application/classes/Form/Contacts.php:197
+#: application/classes/Form/Contracts.php:57
+#: application/classes/Form/Dependent.php:98
+#: application/classes/Form/Deployment.php:80
+#: application/classes/Form/Disiplinary.php:57
+#: application/classes/Form/DutyAppointments.php:162
+#: application/classes/Form/DutyStatus.php:124
+#: application/classes/Form/Forecast.php:204
+#: application/classes/Form/Functional.php:90
+#: application/classes/Form/Health.php:123
+#: application/classes/Form/HealthProblem.php:56
+#: application/classes/Form/Institutional.php:103
+#: application/classes/Form/Invalidity.php:66
+#: application/classes/Form/Language.php:90
+#: application/classes/Form/Logs.php:67
+#: application/classes/Form/Offences.php:95
+#: application/classes/Form/Performance.php:109
+#: application/classes/Form/Personal.php:327
+#: application/classes/Form/PersonalEdit.php:216
+#: application/classes/Form/PhysicalTest.php:61
+#: application/classes/Form/Prior.php:70
+#: application/classes/Form/Profile.php:84
+#: application/classes/Form/Ranks.php:141
+#: application/classes/Form/Remarks.php:50
+#: application/classes/Form/ReportProblem.php:87
+#: application/classes/Form/Reserve.php:80
+#: application/classes/Form/Role.php:59
+#: application/classes/Form/Separation.php:79
+#: application/classes/Form/Services.php:274
+#: application/classes/Form/Skills.php:35
+#: application/classes/Form/Specialities.php:49
+#: application/classes/Form/SpecialityType.php:78
+#: application/classes/Form/Test.php:50 application/classes/Form/Users.php:111
+#: application/classes/Form/Vaccination.php:65
+#: application/classes/Form/createOrder.php:122
+#: application/classes/Form/educSubject.php:45
+#: application/classes/Form/instSubject.php:45
+#: application/classes/Form/newPerformance.php:312
+msgid "Ruaj"
+msgstr "Save"
+
+#: application/classes/Form/Acd.php:44 application/classes/Form/AcdRole.php:40
+#: application/classes/Form/Acr.php:44
+msgid "Struktura:"
+msgstr "Structure:"
+
+#: application/classes/Form/Acd.php:53 application/classes/Form/AcdRole.php:48
+#: application/classes/Form/Acr.php:53
+msgid "Funksioni:"
+msgstr "Function:"
+
+#: application/classes/Form/Acd.php:61
+msgid "Kod Force:"
+msgstr "Force Code:"
+
+#: application/classes/Form/Acd.php:70
+msgid "Kod Njesie:"
+msgstr "Unit Code:"
+
+#: application/classes/Form/Acd.php:79 application/classes/Form/Acr.php:69
+#: application/classes/Form/Logs.php:40
+msgid "Veprimi:"
+msgstr "Action:"
+
+#: application/classes/Form/Acd.php:85 application/classes/Form/Acr.php:75
+msgid "Rregulli:"
+msgstr "Rule:"
+
+#: application/classes/Form/AcdRole.php:56
+msgid "Grupi Gradave:"
+msgstr "Rank Group:"
+
+#: application/classes/Form/AcdRole.php:58
+#: application/classes/Form/Candidate.php:645
+#: application/classes/Form/Prior.php:34
+msgid "Oficer"
+msgstr "Officer"
+
+#: application/classes/Form/AcdRole.php:58
+msgid "N/Oficer"
+msgstr ""
+
+#: application/classes/Form/AcdRole.php:58
+#: application/classes/Form/Personal.php:258
+#: application/classes/Form/Services.php:58
+#: application/classes/Form/Services.php:71
+msgid "Civil"
+msgstr "Civil"
+
+#: application/classes/Form/Acl.php:40 application/classes/Form/Role.php:40
+msgid "Roli:"
+msgstr "Role:"
+
+#: application/classes/Form/Acl.php:51
+#: application/classes/Form/ReportProblem.php:48
+#: application/classes/Form/Test.php:25
+msgid "Moduli:"
+msgstr "Module"
+
+#: application/classes/Form/Acl.php:63
+msgid "Lexo:"
+msgstr "Read:"
+
+#: application/classes/Form/Acl.php:65 application/classes/Form/Acl.php:72
+#: application/classes/Form/Candidate.php:421
+#: application/classes/Form/Contacts.php:165
+#: application/classes/Form/newPerformance.php:212
+#: application/classes/Form/newPerformance.php:305
+msgid "Jo"
+msgstr "No"
+
+#: application/classes/Form/Acl.php:65 application/classes/Form/Acl.php:72
+#: application/classes/Form/Candidate.php:421
+#: application/classes/Form/Contacts.php:164
+#: application/classes/Form/newPerformance.php:212
+#: application/classes/Form/newPerformance.php:306
+msgid "Po"
+msgstr "Yes"
+
+#: application/classes/Form/Acl.php:70
+msgid "Shkruaj:"
+msgstr "Write:"
+
+#: application/classes/Form/Acr.php:61
+msgid "Kod Grade:"
+msgstr "Rank Code:"
+
+#: application/classes/Form/Acr.php:71
+msgid "Lexo"
+msgstr "Read"
+
+#: application/classes/Form/Acr.php:71
+msgid "Shkruaj"
+msgstr "Write"
+
+#: application/classes/Form/Acr.php:71
+msgid "Printo"
+msgstr "Print"
+
+#: application/classes/Form/Acr.php:77
+msgid "Lejo"
+msgstr "Allow"
+
+#: application/classes/Form/Acr.php:77
+msgid "Moho"
+msgstr "Deny"
+
+#: application/classes/Form/Assignment.php:29
+#: application/classes/Form/Ranks.php:64
+#: application/classes/Form/Reserve.php:26
+#: application/classes/Form/Separation.php:26
+msgid "Numri i Urdherit:"
+msgstr "Order Nr:"
+
+#: application/classes/Form/Assignment.php:40
+#: application/classes/Form/Ranks.php:75
+#: application/classes/Form/Reserve.php:38
+#: application/classes/Form/Separation.php:38
+msgid "Data e Urdherit(dd/mm/yyyy):"
+msgstr "Order Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Assignment.php:55
+msgid "Data e fillimit te detyres(dd/mm/yyyy):"
+msgstr "Duty Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Assignment.php:66
+msgid "Data e mbarimit te detyres(dd/mm/yyyy):"
+msgstr "Duty  End Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Assignment.php:80
+msgid "Detyra:"
+msgstr ""
+
+#: application/classes/Form/Assignment.php:91
+#: application/classes/Form/Candidate.php:450
+#: application/classes/Form/Candidate.php:523
+#: application/classes/Form/Candidate.php:691
+#: application/classes/Form/Specialities.php:36
+msgid "Specialiteti:"
+msgstr ""
+
+#: application/classes/Form/Assignment.php:103
+#: application/classes/Form/DutyAppointments.php:79
+msgid "Njesia:"
+msgstr "Unit:"
+
+#: application/classes/Form/Assignment.php:115
+#: application/classes/Form/DutyAppointments.php:146
+msgid "Vendndodhja:"
+msgstr "Location:"
+
+#: application/classes/Form/Awards.php:27
+msgid "Lloji i medaljes : "
+msgstr "Medal Type:"
+
+#: application/classes/Form/Awards.php:37
+msgid "Emri i Medaljes:"
+msgstr "Medal  Name:"
+
+#: application/classes/Form/Awards.php:47
+msgid "Numri i Urdhrit te Medaljes:"
+msgstr "Medal Order Number:"
+
+#: application/classes/Form/Awards.php:58
+msgid "Data e Urdhrit te Medaljes (dd/mm/yyyy):"
+msgstr "Medal Order Date (dd/mm/yyyy):"
+
+#: application/classes/Form/BroadCast.php:51
+#: application/classes/Form/createOrder.php:53
+msgid "Titulli:"
+msgstr ""
+
+#: application/classes/Form/BroadCast.php:61
+msgid "Title (en):"
+msgstr ""
+
+#: application/classes/Form/BroadCast.php:71
+msgid "Pjesa Kryesore:"
+msgstr ""
+
+#: application/classes/Form/BroadCast.php:81
+msgid "Body (en):"
+msgstr ""
+
+#: application/classes/Form/BroadCast.php:91
+#: application/classes/Form/Users.php:96
+msgid "Aktive:"
+msgstr ""
+
+#: application/classes/Form/BroadCast.php:93
+#: application/classes/Form/Users.php:98
+msgid "No"
+msgstr ""
+
+#: application/classes/Form/BroadCast.php:93
+#: application/classes/Form/Users.php:98
+msgid "Yes"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:141
+#: application/classes/Form/Personal.php:76
+#: application/classes/Form/PersonalEdit.php:40
+msgid "Numri ID Personal Kombetar:"
+msgstr "National ID Number:"
+
+#: application/classes/Form/Candidate.php:153
+#: application/classes/Form/Children.php:29
+#: application/classes/Form/Dependent.php:40
+#: application/classes/Form/Personal.php:93
+#: application/classes/Form/PersonalEdit.php:57
+#: application/classes/Form/Search.php:49
+#: application/classes/Form/SpecialityType.php:59
+msgid "Emri:"
+msgstr "First Name:"
+
+#: application/classes/Form/Candidate.php:167
+#: application/classes/Form/Children.php:44
+#: application/classes/Form/Dependent.php:59
+#: application/classes/Form/Personal.php:107
+#: application/classes/Form/PersonalEdit.php:71
+msgid "Atesia:"
+msgstr "Father Name:"
+
+#: application/classes/Form/Candidate.php:183
+#: application/classes/Form/Children.php:59
+#: application/classes/Form/Dependent.php:83
+#: application/classes/Form/Personal.php:133
+#: application/classes/Form/PersonalEdit.php:97
+#: application/classes/Form/Search.php:59
+msgid "Mbiemri:"
+msgstr "Last Name:"
+
+#: application/classes/Form/Candidate.php:201
+#: application/classes/Form/Personal.php:151
+#: application/classes/Form/PersonalEdit.php:115
+msgid "Datelindja (dd/mm/yyyy):"
+msgstr "Birthday (dd/mm/yyyy):"
+
+#: application/classes/Form/Candidate.php:217
+#: application/classes/Form/Personal.php:167
+#: application/classes/Form/PersonalEdit.php:131
+msgid "Vendlindja (shteti):"
+msgstr "Birthplace (Country):"
+
+#: application/classes/Form/Candidate.php:229
+#: application/classes/Form/Personal.php:179
+#: application/classes/Form/PersonalEdit.php:143
+msgid "Vendlindja (rrethi):"
+msgstr "Birthplace (State/Province):"
+
+#: application/classes/Form/Candidate.php:237
+#: application/classes/Form/Personal.php:186
+#: application/classes/Form/PersonalEdit.php:150
+msgid "Vendlindja (fshati/qyteti):"
+msgstr "Birthplace (City):"
+
+#: application/classes/Form/Candidate.php:249
+#: application/classes/Form/Personal.php:198
+#: application/classes/Form/PersonalEdit.php:162
+msgid "Kombesia : "
+msgstr "Nationality:"
+
+#: application/classes/Form/Candidate.php:259
+#: application/classes/Form/Personal.php:208
+#: application/classes/Form/PersonalEdit.php:172
+msgid "Shtetesia : "
+msgstr "Citizenship:"
+
+#: application/classes/Form/Candidate.php:268
+#: application/classes/Form/Personal.php:217
+#: application/classes/Form/PersonalEdit.php:181
+msgid "Shtetesia e dyte: "
+msgstr "Citizenship (other):"
+
+#: application/classes/Form/Candidate.php:274
+#: application/classes/Form/Children.php:87
+#: application/classes/Form/Personal.php:223
+#: application/classes/Form/PersonalEdit.php:187
+msgid "Gjinia : "
+msgstr "Gender"
+
+#: application/classes/Form/Candidate.php:279
+#: application/classes/Form/Candidate.php:432
+#: application/classes/Form/Children.php:93
+#: application/classes/Form/Deployment.php:46
+#: application/classes/Form/Invalidity.php:27
+#: application/classes/Form/Personal.php:228
+#: application/classes/Form/PersonalEdit.php:192
+msgid "Zgjidh.. "
+msgstr ""
+
+#: application/classes/Form/Candidate.php:286
+#: application/classes/Form/Personal.php:235
+#: application/classes/Form/PersonalEdit.php:199
+msgid "Gjendja Civile : "
+msgstr "Civil Status:"
+
+#: application/classes/Form/Candidate.php:288
+#: application/classes/Form/Candidate.php:556
+#: application/classes/Form/Personal.php:219
+#: application/classes/Form/Personal.php:237
+#: application/classes/Form/PersonalEdit.php:201
+msgid "Zgjidh.."
+msgstr ""
+
+#: application/classes/Form/Candidate.php:293
+#: application/classes/Form/Personal.php:242
+#: application/classes/Form/PersonalEdit.php:206
+msgid "Beqar/e"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:294
+#: application/classes/Form/Personal.php:243
+#: application/classes/Form/PersonalEdit.php:207
+msgid "I/e martuar"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:295
+#: application/classes/Form/Personal.php:244
+#: application/classes/Form/PersonalEdit.php:208
+msgid "I/e divorcuar "
+msgstr ""
+
+#: application/classes/Form/Candidate.php:296
+#: application/classes/Form/Personal.php:245
+#: application/classes/Form/PersonalEdit.php:209
+msgid "I/e panjohur"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:297
+#: application/classes/Form/Personal.php:246
+#: application/classes/Form/PersonalEdit.php:210
+msgid "I/e ve"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:302
+#: application/classes/Form/Contacts.php:47
+msgid "Adresa aktuale(Apartamenti/Rruga):"
+msgstr "Address(Apartment/Road):"
+
+#: application/classes/Form/Candidate.php:315
+#, fuzzy
+msgid "Adresa Zyrtare(Apartamenti/Rruga):"
+msgstr "Official Address(Apartment/Road):"
+
+#: application/classes/Form/Candidate.php:327
+#: application/classes/Form/Contacts.php:171
+msgid "Numri i Celularit:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:333
+#: application/classes/Form/Contacts.php:177
+msgid "Telefon shtepie:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:341
+#: application/classes/Form/Contacts.php:185
+msgid "Adresa Email:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:349
+#: application/classes/Form/Health.php:51
+#, fuzzy
+msgid "Data e ekzaminimit(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Candidate.php:363
+#: application/classes/Form/Health.php:71
+#, fuzzy
+msgid "Gjatesia(cm):"
+msgstr "Father Name:"
+
+#: application/classes/Form/Candidate.php:373
+#: application/classes/Form/Health.php:80
+msgid "Pesha(kg):"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:382
+#: application/classes/Form/Health.php:88
+msgid "Ngjyra e flokeve:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:392
+#: application/classes/Form/Health.php:97
+msgid "Ngjyra e syve:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:402
+#: application/classes/Form/Health.php:106
+msgid "Grupi i gjakut:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:405
+#: application/classes/Form/Candidate.php:641
+#: application/classes/Form/Health.php:42
+#: application/classes/Form/Language.php:41
+#: application/classes/Form/PhysicalTest.php:54
+#: application/classes/Form/Prior.php:30
+msgid "Zgjidh"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:419
+msgid "A e keni kryer sherbimin?:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:427
+msgid "Forca e Deshiruar:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:435
+msgid "Komanda e Forcave Tokesore"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:436
+msgid "Komanda e Forcave Ajrore"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:437
+msgid "Komanda e Forcave Detare"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:438
+msgid "Komanda e Doktrines dhe Stervitjes"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:439
+msgid "Brigada Logjistike"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:440
+msgid "Brigada e Mbeshtetjes Rajonale"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:441
+msgid "Regjimenti i Mbeshtejtes se SHP"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:442
+msgid "Policia Ushtarake"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:443
+msgid "Agjencia e Inteligjences se Mbrojtjes"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:444
+msgid "Agjensia e Sistemeve te Nderlidhjes dhe Informacionit"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:462
+#: application/classes/Form/Candidate.php:605
+#: application/classes/Form/Candidate.php:651
+#: application/classes/Form/Contracts.php:31
+#: application/classes/Form/Invalidity.php:35
+#: application/classes/Form/Prior.php:40
+#, fuzzy
+msgid "Data e fillimit(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Candidate.php:477
+#: application/classes/Form/Candidate.php:620
+#: application/classes/Form/Candidate.php:667
+#: application/classes/Form/Contracts.php:44
+#: application/classes/Form/Disiplinary.php:41
+#: application/classes/Form/DutyStatus.php:92
+#: application/classes/Form/Invalidity.php:51
+#: application/classes/Form/Prior.php:56
+#, fuzzy
+msgid "Data e mbarimit(dd/mm/yyyy):"
+msgstr "Contract End Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Candidate.php:494
+#, fuzzy
+msgid "Nr i urdherit:"
+msgstr "Order Nr:"
+
+#: application/classes/Form/Candidate.php:502
+#, fuzzy
+msgid "Data e urdhrit(dd/mm/yyyy):"
+msgstr "Duty Appointment Order Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Candidate.php:516
+#, fuzzy
+msgid "Lloji i Arsimit te Mesem:"
+msgstr "Appointment Type:"
+
+#: application/classes/Form/Candidate.php:534
+msgid "Instituti Arsimor:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:545
+msgid "Nota Mesatare(E Mesme):"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:554
+#, fuzzy
+msgid "Lloji i Universitetit : "
+msgstr "Appointment Type:"
+
+#: application/classes/Form/Candidate.php:561
+msgid "Publik"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:562
+msgid "Privat"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:567
+msgid "Diploma qe zoteroni:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:575
+msgid "Fakulteti:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:586
+msgid "Dega/Specialiteti:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:597
+msgid "Nota Mesatare(E Larte):"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:637
+#: application/classes/Form/Prior.php:26
+msgid "Sherbime te meparshme:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:643
+#: application/classes/Form/Prior.php:32
+msgid "Ushtar Profesionist"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:644
+#: application/classes/Form/Prior.php:33
+msgid "Nen/Oficer"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:679
+#: application/classes/Form/Forecast.php:79
+#: application/classes/Form/Ranks.php:37
+msgid "Grada:"
+msgstr ""
+
+#: application/classes/Form/Candidate.php:703
+msgid "Zyre Rekrutimi:"
+msgstr ""
+
+#: application/classes/Form/Children.php:76
+#, fuzzy
+msgid "Datelindja(dd/mm/yyyy):"
+msgstr "Birthday (dd/mm/yyyy):"
+
+#: application/classes/Form/CivilEducation.php:41
+msgid "Edukimi:"
+msgstr ""
+
+#: application/classes/Form/CivilEducation.php:51
+#, fuzzy
+msgid "Emri i institucionit:"
+msgstr "Position Name:"
+
+#: application/classes/Form/CivilEducation.php:62
+#, fuzzy
+msgid "Vendi i Institucionit (shteti):"
+msgstr "Birthplace (Country):"
+
+#: application/classes/Form/CivilEducation.php:72
+msgid "Vendi i Institucionit (qyteti):"
+msgstr ""
+
+#: application/classes/Form/CivilEducation.php:82
+msgid "Numri i diplomes:"
+msgstr ""
+
+#: application/classes/Form/CivilEducation.php:91
+#, fuzzy
+msgid "Data e diplomes(dd/mm/yyyy):"
+msgstr "Contract Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/CivilEducation.php:103
+msgid "Profili i studimit:"
+msgstr ""
+
+#: application/classes/Form/CivilEducation.php:115
+#, fuzzy
+msgid "Data e perfundimit te studimeve(dd/mm/yyyy):"
+msgstr "Duty Appointment Order Date (dd/mm/yyyy):"
+
+#: application/classes/Form/CivilEducation.php:127
+#: application/classes/Form/Functional.php:79
+#: application/classes/Form/Institutional.php:81
+#: application/classes/Form/Language.php:76
+msgid "Komente:"
+msgstr ""
+
+#: application/classes/Form/Clearance.php:26
+msgid "Certifikate:"
+msgstr ""
+
+#: application/classes/Form/Clearance.php:36
+msgid "Lloji:"
+msgstr ""
+
+#: application/classes/Form/Clearance.php:45
+#, fuzzy
+msgid "Numri i certifikates:"
+msgstr "Duty Appointment Order Number:"
+
+#: application/classes/Form/Clearance.php:54
+#, fuzzy
+msgid "Data e leshimit(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Clearance.php:67
+#, fuzzy
+msgid "Data e skadimit(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Contacts.php:59
+#, fuzzy
+msgid "Adresa aktuale(Shteti):"
+msgstr "Address(Apartment/Road):"
+
+#: application/classes/Form/Contacts.php:70
+#, fuzzy
+msgid "Adresa aktuale(Rrethi):"
+msgstr "Address(Apartment/Road):"
+
+#: application/classes/Form/Contacts.php:78
+#, fuzzy
+msgid "Adresa aktuale(Fshati/Qyteti):"
+msgstr "Address(Apartment/Road):"
+
+#: application/classes/Form/Contacts.php:90
+#, fuzzy
+msgid "Adresa Aktuale (Kodi Postar):"
+msgstr "Address(Apartment/Road):"
+
+#: application/classes/Form/Contacts.php:96
+#, fuzzy
+msgid "Adresa zyrtare(Apartamenti/Rruga):"
+msgstr "Address(Apartment/Road):"
+
+#: application/classes/Form/Contacts.php:108
+msgid "Adresa zyrtare (Shteti):"
+msgstr ""
+
+#: application/classes/Form/Contacts.php:119
+msgid "Adresa zyrtare (Rrethi):"
+msgstr ""
+
+#: application/classes/Form/Contacts.php:127
+msgid "Adresa zyrtare(Fshati/Qyteti):"
+msgstr ""
+
+#: application/classes/Form/Contacts.php:139
+msgid "Adresa zyrtare (Kodi postar):"
+msgstr ""
+
+#: application/classes/Form/Contacts.php:146
+#, fuzzy
+msgid "Adresa zyrtare (pronesia):"
+msgstr "Address(Apartment/Road):"
+
+#: application/classes/Form/Contacts.php:151
+msgid "-Zgjidh-"
+msgstr ""
+
+#: application/classes/Form/Contacts.php:154
+msgid "Zoterim"
+msgstr ""
+
+#: application/classes/Form/Contacts.php:155
+msgid "Kredi"
+msgstr ""
+
+#: application/classes/Form/Contacts.php:156
+msgid "Qira"
+msgstr ""
+
+#: application/classes/Form/Contacts.php:157
+msgid "Me familjen"
+msgstr ""
+
+#: application/classes/Form/Contacts.php:161
+msgid "Trajtim me transferte bashkeshortes/it : "
+msgstr ""
+
+#: application/classes/Form/Contacts.php:192
+msgid "Adresa zyrtare e njejte me ate aktuale : "
+msgstr ""
+
+#: application/classes/Form/Dependent.php:71
+#: application/classes/Form/Personal.php:122
+#: application/classes/Form/PersonalEdit.php:86
+msgid "Mbiemri i vajzerise:"
+msgstr "Maiden Name:"
+
+#: application/classes/Form/Deployment.php:41
+msgid "Vendi i dislokimit:"
+msgstr ""
+
+#: application/classes/Form/Deployment.php:49
+msgid "Afganistan"
+msgstr ""
+
+#: application/classes/Form/Deployment.php:50
+msgid "Bosnje Hercegovine"
+msgstr ""
+
+#: application/classes/Form/Deployment.php:51
+msgid "Cad"
+msgstr ""
+
+#: application/classes/Form/Deployment.php:52
+msgid "Gjeorgji"
+msgstr ""
+
+#: application/classes/Form/Deployment.php:53
+msgid "Irak"
+msgstr ""
+
+#: application/classes/Form/Deployment.php:54
+msgid "Kosove"
+msgstr ""
+
+#: application/classes/Form/Deployment.php:55
+msgid "Libi"
+msgstr ""
+
+#: application/classes/Form/Deployment.php:60
+#, fuzzy
+msgid "Data e dergimit jashte vendit(dd/mm/yyyy):"
+msgstr "Duty Appointment Order Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Deployment.php:71
+#, fuzzy
+msgid "Data e kthimit(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Disiplinary.php:29
+#, fuzzy
+msgid "Numri i Urdherit te denimit:"
+msgstr "Duty Appointment Order Number:"
+
+#: application/classes/Form/DutyAppointments.php:37
+msgid "Numri i urdherit te detyres:"
+msgstr "Duty Appointment Order Number:"
+
+#: application/classes/Form/DutyAppointments.php:46
+msgid "Data e urdherit te detyres (dd/mm/yyyy):"
+msgstr "Duty Appointment Order Date (dd/mm/yyyy):"
+
+#: application/classes/Form/DutyAppointments.php:59
+msgid "Data efektive e fillimit (dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/DutyAppointments.php:73
+msgid "Lloji i emerimit:"
+msgstr "Appointment Type:"
+
+#: application/classes/Form/DutyAppointments.php:74
+msgid "Emeruar nga TOP"
+msgstr ""
+
+#: application/classes/Form/DutyAppointments.php:74
+#, fuzzy
+msgid "Ne Dispozicion"
+msgstr "Position Code:"
+
+#: application/classes/Form/DutyAppointments.php:92
+msgid "Grupi:"
+msgstr "Group:"
+
+#: application/classes/Form/DutyAppointments.php:104
+msgid "Paragrafi:"
+msgstr "Paragraph:"
+
+#: application/classes/Form/DutyAppointments.php:116
+#: application/classes/Form/DutyAppointments.php:128
+msgid "Emri i pozicionit:"
+msgstr "Position Name:"
+
+#: application/classes/Form/DutyAppointments.php:137
+msgid "Grada e pozicionit:"
+msgstr "Position Rank:"
+
+#: application/classes/Form/DutyAppointments.php:155
+msgid "Kodi i Pozicionit"
+msgstr "Position Code:"
+
+#: application/classes/Form/DutyStatus.php:64
+#, fuzzy
+msgid "Statusi:"
+msgstr "Status"
+
+#: application/classes/Form/DutyStatus.php:76
+#, fuzzy
+msgid "Data efektive e fillimit(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/DutyStatus.php:105
+msgid "Vendi i Institucionit (Shteti):"
+msgstr ""
+
+#: application/classes/Form/DutyStatus.php:115
+msgid "Periudha e Ngjarjes:"
+msgstr ""
+
+#: application/classes/Form/DutyStatus.php:117
+msgid "--Zgjidh:--"
+msgstr ""
+
+#: application/classes/Form/DutyStatus.php:118
+msgid "Vetem 1 Dite"
+msgstr ""
+
+#: application/classes/Form/DutyStatus.php:118
+msgid "Shume Dite"
+msgstr ""
+
+#: application/classes/Form/Forecast.php:93
+#: application/classes/Form/Forecast.php:107
+#: application/classes/Form/Forecast.php:121
+msgid "Potenciali Rekomanduar: "
+msgstr ""
+
+#: application/classes/Form/Forecast.php:135
+#: application/classes/Form/Forecast.php:149
+#: application/classes/Form/Forecast.php:163
+msgid "Proj Promotion Out: "
+msgstr ""
+
+#: application/classes/Form/Forecast.php:177
+#: application/classes/Form/Forecast.php:191
+msgid "Qualification: "
+msgstr ""
+
+#: application/classes/Form/Functional.php:26
+msgid "Emertimi i Kursit Funksional:"
+msgstr ""
+
+#: application/classes/Form/Functional.php:36
+msgid "Vendi i Kursit Funksional:"
+msgstr ""
+
+#: application/classes/Form/Functional.php:46
+#, fuzzy
+msgid "Data e perfundimit te Kursit Funksional (dd/mm/yyyy):"
+msgstr "Contract Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Functional.php:61
+msgid "Kohezgjatja e Kursit Funksional (Ne jave):"
+msgstr ""
+
+#: application/classes/Form/Functional.php:71
+msgid "Nota/rezultati akademik i Kursit Funksional:"
+msgstr ""
+
+#: application/classes/Form/Health.php:40
+#, fuzzy
+msgid "Lloji i ekzaminimit:"
+msgstr "Appointment Type:"
+
+#: application/classes/Form/Health.php:44
+msgid "Kontrolli fiziko-shendetsor i ushtarakut"
+msgstr ""
+
+#: application/classes/Form/Health.php:45
+#: application/classes/Form/Health.php:46
+#: application/classes/Form/Health.php:47
+msgid "Ekzaminim Fiziologjik"
+msgstr ""
+
+#: application/classes/Form/Health.php:63
+msgid "PULHES:"
+msgstr ""
+
+#: application/classes/Form/HealthProblem.php:37
+msgid "Probleme shendetesore te individeve:"
+msgstr ""
+
+#: application/classes/Form/HealthProblem.php:46
+msgid "Probleme shendetesore te familjarve:"
+msgstr ""
+
+#: application/classes/Form/Institutional.php:26
+#, fuzzy
+msgid "Shteti:"
+msgstr "Citizenship:"
+
+#: application/classes/Form/Institutional.php:37
+msgid "Emertimi i Kursit Institucional:"
+msgstr ""
+
+#: application/classes/Form/Institutional.php:47
+msgid "Vendi i Kursit Institucional:"
+msgstr ""
+
+#: application/classes/Form/Institutional.php:57
+#, fuzzy
+msgid "Data e perfundimit te Kursit Institucional (dd/mm/yyyy):"
+msgstr "Contract Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Institutional.php:70
+msgid "Kohezgjatja e Kursit Institucional (Ne jave):"
+msgstr ""
+
+#: application/classes/Form/Institutional.php:94
+msgid "Shenim:"
+msgstr ""
+
+#: application/classes/Form/Invalidity.php:24
+msgid "Pension invaliditeti i :"
+msgstr ""
+
+#: application/classes/Form/Invalidity.php:29
+msgid "I Perkohshem"
+msgstr ""
+
+#: application/classes/Form/Invalidity.php:30
+msgid "I Perhershem"
+msgstr ""
+
+#: application/classes/Form/Language.php:26
+msgid "Gjuha:"
+msgstr ""
+
+#: application/classes/Form/Language.php:36
+msgid "Emertimi i testit:"
+msgstr ""
+
+#: application/classes/Form/Language.php:43
+msgid "Stanag-u i NATOS-s"
+msgstr ""
+
+#: application/classes/Form/Language.php:44
+msgid "ALCPT"
+msgstr ""
+
+#: application/classes/Form/Language.php:45
+msgid "TOEFL"
+msgstr ""
+
+#: application/classes/Form/Language.php:46
+msgid "ECL"
+msgstr ""
+
+#: application/classes/Form/Language.php:47
+msgid "Tjeter"
+msgstr ""
+
+#: application/classes/Form/Language.php:51
+msgid "Niveli i kualifikimit:"
+msgstr ""
+
+#: application/classes/Form/Language.php:61
+#, fuzzy
+msgid "Data e testimi(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Login.php:38
+msgid "Perdoruesi:"
+msgstr ""
+
+#: application/classes/Form/Login.php:46
+msgid "Fjalekalimi:"
+msgstr ""
+
+#: application/classes/Form/Login.php:62
+msgid "Login"
+msgstr ""
+
+#: application/classes/Form/Logs.php:49
+msgid "Pershkrim:"
+msgstr ""
+
+#: application/classes/Form/Offences.php:64
+#, fuzzy
+msgid "Lloji i Shkeljes:"
+msgstr "Appointment Type:"
+
+#: application/classes/Form/Offences.php:74
+msgid "Shkeljet:"
+msgstr ""
+
+#: application/classes/Form/Offences.php:85
+msgid "Denimi:"
+msgstr ""
+
+#: application/classes/Form/Performance.php:26
+#: application/classes/Form/newPerformance.php:97
+#, fuzzy
+msgid "Data e fillimi te vleresimit(dd/mm/yyyy):"
+msgstr "Contract Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Performance.php:41
+#: application/classes/Form/newPerformance.php:112
+#, fuzzy
+msgid "Data e mbarimit te vleresimit(dd/mm/yyyy):"
+msgstr "Contract End Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Performance.php:57
+#: application/classes/Form/newPerformance.php:128
+msgid "Kohezgjatja e vleresimit(muaj):"
+msgstr ""
+
+#: application/classes/Form/Performance.php:71
+msgid "Pozicioni qe ka  gjate vleresimit te performances:"
+msgstr ""
+
+#: application/classes/Form/Performance.php:83
+msgid "Njesia ku eshte emeruar, gjate vleresimit te performances:"
+msgstr ""
+
+#: application/classes/Form/Performance.php:96
+msgid "Shuma e pikeve te vleresimit vjetor:"
+msgstr ""
+
+#: application/classes/Form/Personal.php:86
+#: application/classes/Form/PersonalEdit.php:50
+msgid "Nr i dosjes:"
+msgstr ""
+
+#: application/classes/Form/Personal.php:251
+#: application/classes/Form/Services.php:64
+msgid "Komponente:"
+msgstr ""
+
+#: application/classes/Form/Personal.php:255
+#: application/classes/Form/Services.php:68
+msgid "Zgjidh Komponenten"
+msgstr ""
+
+#: application/classes/Form/Personal.php:257
+#: application/classes/Form/Services.php:70
+msgid "Aktiv"
+msgstr ""
+
+#: application/classes/Form/Personal.php:259
+#: application/classes/Form/Services.php:72
+msgid "Kadet"
+msgstr ""
+
+#: application/classes/Form/Personal.php:260
+#: application/classes/Form/Services.php:73
+msgid "Rezerve/Civil"
+msgstr ""
+
+#: application/classes/Form/Personal.php:261
+#: application/classes/Form/Services.php:74
+msgid "Rezerve"
+msgstr ""
+
+#: application/classes/Form/Personal.php:262
+#: application/classes/Form/Services.php:75
+msgid "Lirim"
+msgstr ""
+
+#: application/classes/Form/Personal.php:263
+#: application/classes/Form/Services.php:76
+msgid "LirimCivil"
+msgstr ""
+
+#: application/classes/Form/Personal.php:270
+#: application/classes/Form/Services.php:157
+msgid "Numri i urdherit te titullimit te pare:"
+msgstr ""
+
+#: application/classes/Form/Personal.php:280
+#: application/classes/Form/Services.php:167
+msgid "Data e urdhrit te titullimit te pare(dd/mm/yyyy):"
+msgstr ""
+
+#: application/classes/Form/Personal.php:291
+#: application/classes/Form/Services.php:178
+msgid "Data e fillimit te veprimeve financiare(dd/mm/yyyy):"
+msgstr "Financial Operations Start Date(dd/mm/yy):"
+
+#: application/classes/Form/Personal.php:302
+msgid "Data e fillimit te Kontrates(dd/mm/yyyy):"
+msgstr "Contract Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Personal.php:315
+msgid "Data e mbarimit te Kontrates(dd/mm/yyyy):"
+msgstr "Contract End Date (dd/mm/yyyy):"
+
+#: application/classes/Form/PhysicalTest.php:40
+#, fuzzy
+msgid "Data e testimit fizik(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/PhysicalTest.php:52
+msgid "Rezultatet e testit fizik:"
+msgstr ""
+
+#: application/classes/Form/PhysicalTest.php:56
+msgid "Kaloi"
+msgstr ""
+
+#: application/classes/Form/PhysicalTest.php:57
+msgid "Ngel"
+msgstr ""
+
+#: application/classes/Form/Profile.php:27
+#: application/classes/Form/Users.php:40
+msgid "Username:"
+msgstr ""
+
+#: application/classes/Form/Profile.php:37
+#: application/classes/Form/Users.php:49
+msgid "Password:"
+msgstr ""
+
+#: application/classes/Form/Profile.php:46
+msgid "Password-i i Ri:"
+msgstr ""
+
+#: application/classes/Form/Profile.php:56
+msgid "Konfirmo Password-in:"
+msgstr ""
+
+#: application/classes/Form/Profile.php:65
+#: application/classes/Form/Users.php:58
+#: application/classes/Form/newPerformance.php:229
+#: application/classes/Form/newPerformance.php:264
+#, fuzzy
+msgid "Emri i Plote:"
+msgstr "Position Name:"
+
+#: application/classes/Form/Profile.php:75
+#: application/classes/Form/ReportProblem.php:68
+#: application/classes/Form/Role.php:49 application/classes/Form/Users.php:102
+msgid "Pershkrimi:"
+msgstr ""
+
+#: application/classes/Form/Ranks.php:26
+#: application/classes/Form/createOrder.php:64
+msgid "Ligji:"
+msgstr ""
+
+#: application/classes/Form/Ranks.php:49
+#, fuzzy
+msgid "Data e gradimit(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Ranks.php:90
+msgid "Shqyrtim per graden e rradhes 1: "
+msgstr ""
+
+#: application/classes/Form/Ranks.php:102
+msgid "Shqyrtim per graden e rradhes 2: "
+msgstr ""
+
+#: application/classes/Form/Ranks.php:114
+msgid "Gradim i parakohshem: "
+msgstr ""
+
+#: application/classes/Form/Ranks.php:127
+msgid "Ulje ne Grade:"
+msgstr ""
+
+#: application/classes/Form/Remarks.php:40
+msgid "Shenime:"
+msgstr ""
+
+#: application/classes/Form/ReportProblem.php:58
+msgid "Fusha:"
+msgstr ""
+
+#: application/classes/Form/ReportProblem.php:76
+#, fuzzy
+msgid "Emri i plote:"
+msgstr "Position Name:"
+
+#: application/classes/Form/Reserve.php:54
+#: application/classes/Form/Separation.php:54
+#, fuzzy
+msgid "Data efektive(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Reserve.php:69
+#: application/classes/Form/Separation.php:69
+msgid "Arsyeja:"
+msgstr ""
+
+#: application/classes/Form/Search.php:42
+msgid "Numri i identitetit: [NID]"
+msgstr "National ID Number: [NID]"
+
+#: application/classes/Form/Search.php:69
+msgid "Kerko"
+msgstr "Search"
+
+#: application/classes/Form/Services.php:49
+msgid "Emerimi i Sherbimit:"
+msgstr ""
+
+#: application/classes/Form/Services.php:53
+msgid "Zgjidh Sherbimin"
+msgstr ""
+
+#: application/classes/Form/Services.php:55
+msgid "Tokesore"
+msgstr ""
+
+#: application/classes/Form/Services.php:56
+msgid "Ajrore"
+msgstr ""
+
+#: application/classes/Form/Services.php:57
+msgid "Detare"
+msgstr ""
+
+#: application/classes/Form/Services.php:83
+msgid "Burimi i titullimit:"
+msgstr ""
+
+#: application/classes/Form/Services.php:95
+msgid "Praktike/Stazh:"
+msgstr ""
+
+#: application/classes/Form/Services.php:105
+#, fuzzy
+msgid "Data e fillimit te sherbimit te detyrueshem ushtarak (dd/mm/yyyy):"
+msgstr "Duty Appointment Order Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Services.php:119
+#, fuzzy
+msgid "Data e mbarimit te sherbimit te detyrueshem ushtarak(dd/mm/yyyy):"
+msgstr "Duty Appointment Order Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Services.php:135
+#, fuzzy
+msgid "Numri i urdherit te mbarimit te sherbimit:"
+msgstr "Duty Appointment Order Number:"
+
+#: application/classes/Form/Services.php:143
+#, fuzzy
+msgid "Data e urdhrit te sherbimit(dd/mm/yyyy):"
+msgstr "Duty Appointment Order Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Services.php:189
+#, fuzzy
+msgid "Data e rititullimit (e perllogaritur)(dd/mm/yyyy):"
+msgstr "Contract Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Services.php:202
+#, fuzzy
+msgid "Data e fillimit te pages kalimtare(dd/mm/yyyy):"
+msgstr "Financial Operations Start Date(dd/mm/yy):"
+
+#: application/classes/Form/Services.php:216
+#, fuzzy
+msgid "Data e mbarimit te pages kalimtare(dd/mm/yyyy):"
+msgstr "Contract End Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Services.php:231
+#, fuzzy
+msgid "Data e fillimit te pensionit te parakohshem (dd/mm/yyyy):"
+msgstr "Contract Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Services.php:245
+#, fuzzy
+msgid "Data e mbarimit te pensionit te parakohshem(dd/mm/yyyy):"
+msgstr "Contract End Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Services.php:260
+#, fuzzy
+msgid "Data e fillimit te pensionit(dd/mm/yyyy):"
+msgstr "Contract Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/Skills.php:26
+#, fuzzy
+msgid "Aftesia shtese:"
+msgstr "Father Name:"
+
+#: application/classes/Form/Specialities.php:26
+#: application/classes/Form/SpecialityType.php:68
+msgid "Tipi:"
+msgstr ""
+
+#: application/classes/Form/SpecialityType.php:40
+msgid "Kodi:"
+msgstr ""
+
+#: application/classes/Form/SpecialityType.php:50
+msgid "Alfa Kodi:"
+msgstr ""
+
+#: application/classes/Form/Test.php:35
+msgid "Nen-Moduli:"
+msgstr ""
+
+#: application/classes/Form/Users.php:67
+msgid "Ip adresa:"
+msgstr ""
+
+#: application/classes/Form/Users.php:75
+msgid "Roli i Aksesit te Modulit:"
+msgstr ""
+
+#: application/classes/Form/Users.php:86
+msgid "Roli i Aksesit te te Dhenave:"
+msgstr ""
+
+#: application/classes/Form/Vaccination.php:26
+msgid "Lloji i vaksines:"
+msgstr ""
+
+#: application/classes/Form/Vaccination.php:36
+#, fuzzy
+msgid "Emri i vaksines:"
+msgstr "Maiden Name:"
+
+#: application/classes/Form/Vaccination.php:49
+#, fuzzy
+msgid "Data e vaksinimit(dd/mm/yyyy):"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/createOrder.php:42
+msgid "Koka:"
+msgstr ""
+
+#: application/classes/Form/createOrder.php:75
+#, fuzzy
+msgid "Te Dhenat:"
+msgstr "Actual Data"
+
+#: application/classes/Form/createOrder.php:86
+#, fuzzy
+msgid "Data Efektive:"
+msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#: application/classes/Form/createOrder.php:96
+#, fuzzy
+msgid "Te dhena te tjera:"
+msgstr "Actual Data"
+
+#: application/classes/Form/createOrder.php:106
+msgid "Miratoi:"
+msgstr ""
+
+#: application/classes/Form/createOrder.php:115
+#, fuzzy
+msgid "Urdhri:"
+msgstr "Order"
+
+#: application/classes/Form/educSubject.php:26
+#: application/classes/Form/instSubject.php:27
+msgid "Lendet:"
+msgstr ""
+
+#: application/classes/Form/educSubject.php:37
+#: application/classes/Form/instSubject.php:38
+msgid "Nota/rezultati:"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:147
+#, fuzzy
+msgid "Pozicioni:"
+msgstr "Position Code:"
+
+#: application/classes/Form/newPerformance.php:159
+msgid "Njesia ku eshte emeruar:"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:172
+msgid "Minimumi i pikeve per Gradat OR1,OR2,OR3 eshte 22!"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:174
+#: application/classes/Form/newPerformance.php:194
+msgid "Shuma e pikeve te Rubrikes 27:"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:191
+msgid "Minimumi i pikeve eshte 24!"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:210
+msgid "Vleresimi i S.Superior i njejte me S.Drejteperdrejt?:"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:218
+msgid "Vleresimi i Superiorit eshte:"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:221
+msgid "Me i Larte"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:221
+msgid "Me i Ulet"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:245
+#: application/classes/Form/newPerformance.php:281
+msgid "Vleresimi:"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:251
+#: application/classes/Form/newPerformance.php:287
+msgid "E PaMjaftueshme"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:252
+#: application/classes/Form/newPerformance.php:288
+msgid "Nen Mesatare"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:253
+#: application/classes/Form/newPerformance.php:289
+msgid "Mesatare"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:254
+#: application/classes/Form/newPerformance.php:290
+msgid "Mbi Mesatare"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:255
+#: application/classes/Form/newPerformance.php:291
+msgid "Shkelqyeshem"
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:297
+msgid "E njejte me Superv.Drejtperdrejt? : "
+msgstr ""
+
+#: application/classes/Form/newPerformance.php:301
+msgid "Ka Deklarate Bashkangjitur? : "
+msgstr ""
+
+#: application/classes/Utility/Grid.php:123
+msgid "Shto"
+msgstr "Add"
+
+#: application/classes/Utility/Grid.php:124
+msgid "Ndrysho"
+msgstr "Edit"
+
+#: application/classes/Utility/Grid.php:125
+msgid "Fshi"
+msgstr "Delete"
+
+#: application/classes/Utility/Grid.php:127
+msgid "Te Dhenat Aktuale"
+msgstr "Actual Data"
+
+#: application/controllers/main.php:415
+msgid "Menaxhimi i Burimeve Njerezore"
+msgstr "Human Resources Management"
+
+#: application/controllers/main.php:427
+msgid "EDITIMI"
+msgstr "EDITING"
+
+#: application/controllers/main.php:428
+msgid "RAPORTE"
+msgstr "REPORTS"
+
+#: application/controllers/main.php:429
+msgid "STATISTIKA"
+msgstr "STATISTICS"
+
+#: application/controllers/main.php:430
+msgid "KERKIMI"
+msgstr "SEARCH"
+
+#: application/controllers/main.php:431
+msgid "SIGURIA"
+msgstr "SECURITY"
+
+#: application/controllers/main.php:432
+msgid "SISTEMI"
+msgstr "SYSTEM"
+
+#~ msgid "Lloji"
+#~ msgstr "Type"
+
+#~ msgid " * Numri ID Personal Kombetar:"
+#~ msgstr "National ID Number:"
+
+#~ msgid "* Emri:"
+#~ msgstr "First Name:"
+
+#~ msgid "* Atesia:"
+#~ msgstr "Father Name:"
+
+#~ msgid "* Mbiemri:"
+#~ msgstr "Last Name:"
+
+#~ msgid "* Datelindja (dd/mm/yyyy):"
+#~ msgstr "Birthday (dd/mm/yyyy):"
+
+#~ msgid "* Vendlindja (shteti):"
+#~ msgstr "Birthplace (Country):"
+
+#~ msgid "* Vendlindja (rrethi):"
+#~ msgstr "Birthplace (State/Province):"
+
+#~ msgid "* Vendlindja (fshati/qyteti):"
+#~ msgstr "Birthplace (City):"
+
+#~ msgid "* Kombesia : "
+#~ msgstr "Nationality:"
+
+#~ msgid "* Shtetesia : "
+#~ msgstr "Citizenship:"
+
+#~ msgid "* Gjinia : "
+#~ msgstr "Gender"
+
+#~ msgid "* Gjendja Civile : "
+#~ msgstr "Civil Status:"
+
+#~ msgid "* Adresa aktuale(Apartamenti/Rruga):"
+#~ msgstr "Address(Apartment/Road):"
+
+#, fuzzy
+#~ msgid "* Data e ekzaminimit(dd/mm/yyyy):"
+#~ msgstr "Duty Appointment Start Date (dd/mm/yyyy):"
+
+#~ msgid "test"
+#~ msgstr "test"

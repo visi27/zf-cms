@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HRM.al\n"
+"POT-Creation-Date: 2014-03-24 14:57+0100\n"
+"PO-Revision-Date: 2014-03-24 14:59+0100\n"
+"Last-Translator: Evis Bregu <evis.bregu@gmail.com>\n"
+"Language-Team: \n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: D:\\Projects\\HRM\\trunk\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: application\n"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:29
+msgid "id"
+msgstr "id"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:29
+msgid "Kodi i pozicionit"
+msgstr "Kodi i Pozicionit"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:29
+msgid "Emri i pozicionit"
+msgstr "Emri i pozicionit:"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:30
+msgid "Dt. e fillimit"
+msgstr "Dt. e fillimit"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:30
+msgid "Dt. e perfundimit"
+msgstr "Dt. e perfundimit"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:30
+msgid "Dt e urdherit"
+msgstr "Dt e urdherit"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:31
+msgid "Nr. i urdherit"
+msgstr "Nr. i urdherit"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:31
+msgid "Konfirmuar"
+msgstr "Konfirmuar"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:31
+msgid "Status"
+msgstr "Status"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:31
+msgid "Konflikt"
+msgstr "Konflikt"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:32
+msgid "collision_desc"
+msgstr "collision_desc"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:32
+msgid "Urdheri"
+msgstr "Urdheri"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:40
+msgid "Krijo"
+msgstr "Krijo"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:41
+msgid "Konfirmo"
+msgstr "Konfirmo"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:247
+msgid "Anullo"
+msgstr "Anullo"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:299
+msgid "Krijo Urdher"
+msgstr "Krijo Urdher"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:349
+msgid "Shiko Urdher"
+msgstr "Shiko Urdher"
+
+#: application/classes/Ajax/Response/Personel/DutyAppointments.php:389
+msgid "Urdher Shumefishte"
+msgstr "Urdher Shumefishte"
+
+#: application/classes/Form/Contacts.php:47
+msgid "Adresa aktuale(Apartamenti/Rruga):"
+msgstr "Adresa aktuale(Apartamenti/Rruga):"
+
+#: application/classes/Form/DutyAppointments.php:26
+msgid "Informacion per personin:"
+msgstr "Informacion për personin:"
+
+#: application/classes/Form/DutyAppointments.php:37
+msgid "Numri i urdherit te detyres:"
+msgstr "Numri i urdhërit të detyrës:"
+
+#: application/classes/Form/DutyAppointments.php:46
+msgid "Data e urdherit te detyres (dd/mm/yyyy):"
+msgstr "Data e urdhërit të detyrës (dd/mm/yyyy):"
+
+#: application/classes/Form/DutyAppointments.php:59
+msgid "Data efektive e fillimit (dd/mm/yyyy):"
+msgstr "Data efektive e fillimit (dd/mm/yyyy):"
+
+#: application/classes/Form/DutyAppointments.php:73
+msgid "Lloji i emerimit:"
+msgstr "Lloji i emërimit:"
+
+#: application/classes/Form/DutyAppointments.php:79
+msgid "Njesia:"
+msgstr "Njësia:"
+
+#: application/classes/Form/DutyAppointments.php:92
+msgid "Grupi:"
+msgstr "Grupi:"
+
+#: application/classes/Form/DutyAppointments.php:104
+msgid "Paragrafi:"
+msgstr "Paragrafi:"
+
+#: application/classes/Form/DutyAppointments.php:116
+#: application/classes/Form/DutyAppointments.php:128
+msgid "Emri i pozicionit:"
+msgstr "Emri i pozicionit:"
+
+#: application/classes/Form/DutyAppointments.php:137
+msgid "Grada e pozicionit:"
+msgstr "Grada e pozicionit:"
+
+#: application/classes/Form/DutyAppointments.php:146
+msgid "Vendndodhja:"
+msgstr "Vendndodhja:"
+
+#: application/classes/Form/DutyAppointments.php:155
+msgid "Kodi i Pozicionit"
+msgstr "Kodi i Pozicionit"
+
+#: application/classes/Form/DutyAppointments.php:162
+#: application/classes/Form/Personal.php:327
+msgid "Ruaj"
+msgstr "Ruaj"
+
+#: application/classes/Form/Personal.php:76
+#: application/classes/Form/PersonalEdit.php:40
+msgid "Numri ID Personal Kombetar:"
+msgstr "Numri ID Personal Kombetar:"
+
+#: application/classes/Form/Personal.php:86
+#: application/classes/Form/PersonalEdit.php:50
+msgid "Nr i dosjes:"
+msgstr "Nr i dosjes:"
+
+#: application/classes/Form/Personal.php:93
+msgid "Emri:"
+msgstr "Emri:"
+
+#: application/classes/Form/Personal.php:107
+#: application/classes/Form/PersonalEdit.php:71
+msgid "Atesia:"
+msgstr "Atesia:"
+
+#: application/classes/Form/Personal.php:122
+msgid "Mbiemri i vajzerise:"
+msgstr "Mbiemri i vajzerise:"
+
+#: application/classes/Form/Personal.php:133
+msgid "Mbiemri:"
+msgstr "Mbiemri:"
+
+#: application/classes/Form/Personal.php:151
+msgid "Datelindja (dd/mm/yyyy):"
+msgstr "Datelindja (dd/mm/yyyy):"
+
+#: application/classes/Form/Personal.php:167
+msgid "Vendlindja (shteti):"
+msgstr "Vendlindja (shteti):"
+
+#: application/classes/Form/Personal.php:179
+msgid "Vendlindja (rrethi):"
+msgstr "Vendlindja (rrethi):"
+
+#: application/classes/Form/Personal.php:186
+msgid "Vendlindja (fshati/qyteti):"
+msgstr "Vendlindja (fshati/qyteti):"
+
+#: application/classes/Form/Personal.php:198
+msgid "Kombesia : "
+msgstr "Kombesia : "
+
+#: application/classes/Form/Personal.php:208
+msgid "Shtetesia : "
+msgstr "Shtetesia : "
+
+#: application/classes/Form/Personal.php:217
+msgid "Shtetesia e dyte: "
+msgstr "Shtetesia e dyte: "
+
+#: application/classes/Form/Personal.php:223
+msgid "Gjinia : "
+msgstr "Gjinia : "
+
+#: application/classes/Form/Personal.php:235
+msgid "Gjendja Civile : "
+msgstr "Gjendja Civile : "
+
+#: application/classes/Form/Personal.php:251
+msgid "Komponente:"
+msgstr "Komponente:"
+
+#: application/classes/Form/Personal.php:270
+msgid "Numri i urdherit te titullimit te pare:"
+msgstr "Numri i urdherit te titullimit te pare:"
+
+#: application/classes/Form/Personal.php:280
+msgid "Data e urdhrit te titullimit te pare(dd/mm/yyyy):"
+msgstr "Data e urdhrit te titullimit te pare(dd/mm/yyyy):"
+
+#: application/classes/Form/Personal.php:291
+msgid "Data e fillimit te veprimeve financiare(dd/mm/yyyy):"
+msgstr "Data e fillimit te veprimeve financiare(dd/mm/yyyy):"
+
+#: application/classes/Form/Personal.php:302
+msgid "Data e fillimit te Kontrates(dd/mm/yyyy):"
+msgstr "Data e fillimit te Kontrates(dd/mm/yyyy):"
+
+#: application/classes/Form/Personal.php:315
+msgid "Data e mbarimit te Kontrates(dd/mm/yyyy):"
+msgstr "Data e mbarimit te Kontrates(dd/mm/yyyy):"
+
+#: application/classes/Utility/Grid.php:123
+msgid "Shto"
+msgstr "Shto"
+
+#: application/classes/Utility/Grid.php:124
+msgid "Ndrysho"
+msgstr "Ndrysho"
+
+#: application/classes/Utility/Grid.php:125
+msgid "Fshi"
+msgstr "Fshi"
+
+#: application/classes/Utility/Grid.php:127
+msgid "Te Dhenat Aktuale"
+msgstr "Te Dhenat Aktuale"
+
+#: application/controllers/main.php:415
+msgid "Menaxhimi i Burimeve Njerezore"
+msgstr "Menaxhimi i Burimeve Njerezore"
+
+#: application/controllers/main.php:427
+msgid "EDITIMI"
+msgstr "EDITIMI"
+
+#: application/controllers/main.php:428
+msgid "RAPORTE"
+msgstr "RAPORTE"
+
+#: application/controllers/main.php:429
+msgid "STATISTIKA"
+msgstr "STATISTIKA"
+
+#: application/controllers/main.php:430
+msgid "KERKIMI"
+msgstr "KERKIMI"
+
+#: application/controllers/main.php:431
+msgid "SIGURIA"
+msgstr "SIGURIA"
+
+#: application/controllers/main.php:432
+msgid "SISTEMI"
+msgstr "SISTEMI"
+
+#~ msgid "test"
+#~ msgstr "test"
+
+#~ msgid "form.dutyAppointment.info"
+#~ msgstr "Informacion per personin:"
+
+#~ msgid "form.dutyAppointment.orderNr"
+#~ msgstr "Numri i urdherit te detyres:"
+
+#~ msgid "form.dutyAppointment.orderDate"
+#~ msgstr "Data e urdherit te detyres (dd/mm/yyyy):"
+
+#~ msgid "form.dutyAppointment.startDate"
+#~ msgstr "Data efektive e fillimit (dd/mm/yyyy):"
+
+#~ msgid "form.dutyAppointment.unAssignment"
+#~ msgstr "Lloji i emërimit:"
+
+#~ msgid "form.dutyAppointment.toeUnitCode"
+#~ msgstr "Njesia:"
+
+#~ msgid "form.dutyAppointment.toeGroupCode"
+#~ msgstr "Grupi:"
+
+#~ msgid "form.dutyAppointment.toeParagraphCode"
+#~ msgstr "Paragrafi:"
+
+#~ msgid "form.dutyAppointment.toePositionName"
+#~ msgstr "Emri i Pozicionit:"
+
+#~ msgid "form.dutyAppointment.toeSpecCode"
+#~ msgstr "Specialiteti i pozicionit:"
+
+#~ msgid "form.dutyAppointment.toeRankCode"
+#~ msgstr "Grada e pozicionit:"
+
+#~ msgid "form.dutyAppointment.toeLocationCode"
+#~ msgstr "Vendodhja:"
+
+#~ msgid "form.dutyAppointment.toePositionCode"
+#~ msgstr " "
+
+#~ msgid "form.submit"
+#~ msgstr "Ruaj"
