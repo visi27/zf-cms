@@ -59,8 +59,7 @@ $app_logger = new Utility_FileLogger();
 Zend_Registry::set('applog', $app_logger);
 
 // Get the requested controller name, otherwise consider the default 
-$controller = isset($_GET['c'])? htmlentities($_GET['c'])
-				:Zend_Registry::get('config')->main_controller;
+$controller = isset($_GET['c'])? htmlentities($_GET['c']):Zend_Registry::get('config')->main_controller;
 // Try to load this controller
 require_once Dispatcher::loadController($controller);
 
@@ -90,6 +89,7 @@ function __autoload($loadClass) {
 	
 	$className = str_replace("_", DIRECTORY_SEPARATOR , $loadClass).".php";
 
+    $canNotIncludeFile = false;
 	// check first the local application class path
 	if (file_exists ( APPLICATION_PATH . DIRECTORY_SEPARATOR . 
 			Zend_Registry::get('config')->class_path . DIRECTORY_SEPARATOR . $className  )){
